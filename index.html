@@ -1,157 +1,375 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-  <link rel="stylesheet" href="./Assets/styles.css">
-  <title>Hotels</title>
-</head>
-<body>
-  <!--The Nav Bar-->
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#"><img src="./Assets/images/map-marker-alt-solid.svg" width="20"; height="20" alt="Location"></a></li>
-        <li><a href="#">Hotels</a></li>
-        <li><a href="#"><img src="./Assets/images/search-solid.svg" alt="search-btn" width="20"; height="20"></a></li>
-        <li><a href="#">SCHOOLS</a></li>
-        <li><a href="#"><img src="./Assets/images/user-regular.svg" width="20"; height="20" alt="ABOUT"></a></li>
-        <li><a href="#">ABOUT</a></li>
-        <li><a href="#"><img src="./Assets/images/rss-solid.svg" alt="BLOG" width="20"; height="20"></a></li>
-        <li><a href="#">BLOG</a></li>
-        <li><a href="#"><img src="./Assets/images/bars-solid.svg" width="20"; height="20" alt="Menu"></a></li>
-        <li><a href="#">MORE</a></li>
-      </ul>
-    </nav>
-  </header>
-<section>
-  <div class="main-search">
-    <form action="/action_page.php">
-        <h3>HOTELS...A STEP AWAY FROM YOUR HOTEL SEARCH IN NIGERIA</h3>
-        <label>SEARCH BY KEY WORDS:
-        <input type="text" id="search" name="search">
-      </label>
-      <button type="button">SEARCH</button>
-    </form>
-  </div>
-  <div>
-    <button type="button">HOW IT WORKS</button>
-  </div>
-</section>
-<section>
-  <div class="steps">
-    <h4>NAMASA WORKS IN FOUR SIMPLE STEPS</h4>
-    <div class="container container-fluid">
-      <div class="row">
-        <div class="col-sm">
-          <div-img-logo>
-            <img src="./Assets/images/file-invoice-solid.svg" width="40" height="40" alt="search">
-          </div-img-logo>
-          <h5>1-SEARCH:</h5>
-          <P>Its very simple, On Namasa homepage, enter the name of a Hotel you are looking for and click on the search button. Alternatively, click on the search link at the top menu to view the list of all the Hotels</P>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./Assets/styles.css" />
+    <script src="https://kit.fontawesome.com/d5a9387878.js" crossorigin="anonymous"></script>
+    <title>Hotels</title>
+  </head>
+  <body>
+    <!--The Nav Bar-->
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="#"
+              ><img
+                src="./Assets/images/map-marker-alt-solid.svg"
+                width="20"
+                ;
+                height="20"
+                alt="Location"
+            /></a>
+          </li>
+          <li><a href="#">Hotels</a></li>
+          <li>
+            <a href="#"
+              ><i class="fas fa-search"></i></a>
+          </li>
+          <li><a href="#">SCHOOLS</a></li>
+          <li>
+            <a href="#"
+              ><img
+                src="./Assets/images/user-regular.svg"
+                width="20"
+                ;
+                height="20"
+                alt="ABOUT"
+            /></a>
+          </li>
+          <li><a href="#">ABOUT</a></li>
+          <li>
+            <a href="#"
+              ><img
+                src="./Assets/images/rss-solid.svg"
+                alt="BLOG"
+                width="20"
+                ;
+                height="20"
+            /></a>
+          </li>
+          <li><a href="#">BLOG</a></li>
+          <li>
+            <a href="#"
+              ><img
+                src="./Assets/images/bars-solid.svg"
+                width="20"
+                ;
+                height="20"
+                alt="Menu"
+            /></a>
+          </li>
+          <li><a href="#">MORE</a></li>
+        </ul>
+      </nav>
+      <div class="mobile-nav">
+        <div class="icon">
+          <ul>
+            <li>
+              <a href="#"
+                ><img
+                  src="./Assets/images/map-marker-alt-solid.svg"
+                  width="20"
+                  ;
+                  height="20"
+                  alt="Location"
+              /></a>
+            </li>
+            <li><a href="#">Hotels</a></li>
+          </ul>
         </div>
-        <div class="col-sm">
-          <div-img-logo>
-            <img src="./Assets/images/map-regular.svg" width="40" height="40" alt="search">
-          </div-img-logo>
-          <h5>1-LOCATE:</h5>
-          <P>Its very simple, On Namasa homepage, enter the name of a Hotel you are looking for and click on the search button. Alternatively, click on the search link at the top menu to view the list of all the Hotels</P>
+        <div class="list">
+          <ul>
+            <li>
+              <a href="#"
+                ><img
+                  src="./Assets/images/search-solid.svg"
+                  alt="search-btn"
+                  width="20"
+                  ;
+                  height="20"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="./Assets/images/user-regular.svg"
+                  width="20"
+                  ;
+                  height="20"
+                  alt="ABOUT"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="./Assets/images/rss-solid.svg"
+                  alt="BLOG"
+                  width="20"
+                  ;
+                  height="20"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="./Assets/images/bars-solid.svg"
+                  width="20"
+                  ;
+                  height="20"
+                  alt="Menu"
+              /></a>
+            </li>
+          </ul>
         </div>
       </div>
-      <div class="row">
-        <div class="col-sm">
-          <div-img-logo>
-            <img src="./Assets/images/file-invoice-solid.svg" width="40" height="40" alt="search">
-          </div-img-logo>
-          <h5>1-SEARCH:</h5>
-          <P>Its very simple, On Namasa homepage, enter the name of a Hotel you are looking for and click on the search button. Alternatively, click on the search link at the top menu to view the list of all the Hotels</P>
-        </div>
-        <div class="col-sm">
-          <div-img-logo>
-            <img src="./Assets/images/map-regular.svg" width="40" height="40" alt="search">
-          </div-img-logo>
-          <h5>1-LOCATE:</h5>
-          <P>Its very simple, On Namasa homepage, enter the name of a Hotel you are looking for and click on the search button. Alternatively, click on the search link at the top menu to view the list of all the Hotels</P>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<section>
-  <div class="easy-find">
-<div class="find-hotel">
-  <div>
-    <p>Over 5,000 Hotels registerd with us</p>
-    <p>Find a hotel by using our filterd search engine</p>
-    <a href='#'>Find a Hotel</a>
-  </div>
-  <div class="rounded">
-    <img src="./Assets/images/elegant-hall-hotel-zoom-background-design-template-ec1cc7a1c6bff99343fe4c7c1e01e841_screen.jpg" class="rounded-circle" alt="" width="180"; height="180">
-  </div>
-</div>
-<div class="find-hotel">
-  <div>
-    <p>No need to travel round the country to get a standard hotel</p>
-    <p>Just click on the search button and you are set</p>
-    <a href='#'>Find a Hotel near you now</a>
-  </div>
-  <div class="rounded">
-    <img src="./Assets/images/istockphoto-518657226-612x612.jpg" class="rounded-circle" alt="" width="180"; height="180">
-  </div>
-</div>
-<div class="find-hotel">
-  <div>
-    <p>We got you covered, anywhere, anytime, any day</p>
-    <p>Our platform is very convinient, reliable and very effective. Just click on the search button to get started</p>
-    <a href='#'>Find a Hotel</a>
-  </div>
-  <div class="rounded">
-    <img src="./Assets/images/389-3897896_the-free-cell-phone-tracker-tracker-phone.png" class="rounded" alt="" width="180"; height="180">
-  </div>
-</div>
-  </div>
-</section>
-<footer>
-  <div class="footer-links">
-    <a href="#">HOME</a>
-    <a href="#">SEARCH</a>
-    <a href="#">ABOUT US</a>
-    <a href="#">ADVERTISE</a>
-    <a href="#"><img src="./Assets/images/map-marker-alt-solid.svg" alt="Location" width="40" height="40"></a>
-    <a href="#">FACEBOOK</a>
-    <a href="#">TWITTER</a>
-    <a href="#">BLOG</a>
-    <a href="#">GOOGLE</a>
-  </div>
-  <div class="footer-grid">
-    <div class="subscribe">
-      <h5>SUBSCRIBE</h5>
-        <form>
-          <input type="search" placeholder="Search" aria-label="Search">
-          <button class="btn-outline-dark" type="submit">Search</button>
+    </header>
+    <section>
+      <div class="main-search">
+        <form action="/action_page.php">
+          <h3>HOTELS...A STEP AWAY FROM YOUR HOTEL SEARCH IN NIGERIA</h3>
+          <label
+            >SEARCH BY KEY WORDS:
+            <input type="text" id="search" name="search" />
+          </label>
+          <button type="button">SEARCH</button>
         </form>
       </div>
-      <div class="contact">
-        <h5>CONTACT</h5>
-        <p>For enquiries, send an email to kaluchinasaagu@gmail.com</p>
+      <div>
+        <button type="button">HOW IT WORKS</button>
       </div>
-      <div class="about">
-        <h5>ABOUT </h5>
-        <p>Hotels directory in Nigeria was created to close the gap between hotel owners and the their customers.</p>
+    </section>
+    <section>
+      <div class="steps">
+        <h4>NAMASA WORKS IN FOUR SIMPLE STEPS</h4>
+        <div class="container container-fluid">
+          <div class="row">
+            <div class="col-sm">
+              <div-img-logo>
+                <img
+                  src="./Assets/images/file-invoice-solid.svg"
+                  width="40"
+                  height="40"
+                  alt="search"
+                />
+              </div-img-logo>
+              <h5>1-SEARCH:</h5>
+              <p>
+                Its very simple, On Namasa homepage, enter the name of a Hotel
+                you are looking for and click on the search button.
+                Alternatively, click on the search link at the top menu to view
+                the list of all the Hotels
+              </p>
+            </div>
+            <div class="col-sm">
+              <div-img-logo>
+                <img
+                  src="./Assets/images/map-regular.svg"
+                  width="40"
+                  height="40"
+                  alt="search"
+                />
+              </div-img-logo>
+              <h5>1-LOCATE:</h5>
+              <p>
+                Its very simple, On Namasa homepage, enter the name of a Hotel
+                you are looking for and click on the search button.
+                Alternatively, click on the search link at the top menu to view
+                the list of all the Hotels
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm">
+              <div-img-logo>
+                <img
+                  src="./Assets/images/file-invoice-solid.svg"
+                  width="40"
+                  height="40"
+                  alt="search"
+                />
+              </div-img-logo>
+              <h5>1-SEARCH:</h5>
+              <p>
+                Its very simple, On Namasa homepage, enter the name of a Hotel
+                you are looking for and click on the search button.
+                Alternatively, click on the search link at the top menu to view
+                the list of all the Hotels
+              </p>
+            </div>
+            <div class="col-sm">
+              <div-img-logo>
+                <img
+                  src="./Assets/images/map-regular.svg"
+                  width="40"
+                  height="40"
+                  alt="search"
+                />
+              </div-img-logo>
+              <h5>1-LOCATE:</h5>
+              <p>
+                Its very simple, On Namasa homepage, enter the name of a Hotel
+                you are looking for and click on the search button.
+                Alternatively, click on the search link at the top menu to view
+                the list of all the Hotels
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="footer-icons">
-      <a href="#"><img src="./Assets/images/facebook-f-brands.svg" alt="facebook icon" width="15" height="15"></a>
-      <a href="#"><img src="./Assets/images/twitter-brands.svg" alt="Twitter icon" width="15" height="15"></a>
-      <a href="#"><img src="./Assets/images/youtube-brands.svg" alt="Youtube icon" width="15" height="15"></a>
-      <a href="#"><img src="./Assets/images/instagram-brands.svg" alt="instagram-brands" width="15" height="15"></a>
-      <a href="#"><img src="./Assets/images/envelope-solid.svg" alt="email" width="15" height="15"></a>
-      <p>&copy;2020 Microverse HTML & CSS Capstone project by Chinasa</p>
-    </div>
-</footer>
+    </section>
+    <section>
+      <div class="easy-find">
+        <div class="find-hotel">
+          <div>
+            <p>Over 5,000 Hotels registerd with us</p>
+            <p>Find a hotel by using our filterd search engine</p>
+            <a href="#">Find a Hotel</a>
+          </div>
+          <div class="rounded">
+            <img
+              src="./Assets/images/elegant-hall-hotel-zoom-background-design-template-ec1cc7a1c6bff99343fe4c7c1e01e841_screen.jpg"
+              class="rounded-circle"
+              alt=""
+              width="180"
+              ;
+              height="180"
+            />
+          </div>
+        </div>
+        <div class="find-hotel">
+          <div>
+            <p>No need to travel round the country to get a standard hotel</p>
+            <p>Just click on the search button and you are set</p>
+            <a href="#">Find a Hotel near you now</a>
+          </div>
+          <div class="rounded">
+            <img
+              src="./Assets/images/istockphoto-518657226-612x612.jpg"
+              class="rounded-circle"
+              alt=""
+              width="180"
+              ;
+              height="180"
+            />
+          </div>
+        </div>
+        <div class="find-hotel">
+          <div>
+            <p>We got you covered, anywhere, anytime, any day</p>
+            <p>
+              Our platform is very convinient, reliable and very effective. Just
+              click on the search button to get started
+            </p>
+            <a href="#">Find a Hotel</a>
+          </div>
+          <div class="rounded">
+            <img
+              src="./Assets/images/389-3897896_the-free-cell-phone-tracker-tracker-phone.png"
+              class="rounded"
+              alt=""
+              width="180"
+              ;
+              height="180"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-links">
+        <a href="#">HOME</a>
+        <a href="#">SEARCH</a>
+        <a href="#">ABOUT US</a>
+        <a href="#">ADVERTISE</a>
+        <a href="#"
+          ><img
+            src="./Assets/images/map-marker-alt-solid.svg"
+            alt="Location"
+            width="40"
+            height="40"
+        /></a>
+        <a href="#">FACEBOOK</a>
+        <a href="#">TWITTER</a>
+        <a href="#">BLOG</a>
+        <a href="#">GOOGLE</a>
+      </div>
+      <div class="footer-grid">
+        <div class="subscribe">
+          <h5>SUBSCRIBE</h5>
+          <form>
+            <input type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn-outline-dark" type="submit">Search</button>
+          </form>
+        </div>
+        <div class="contact">
+          <h5>CONTACT</h5>
+          <p>For enquiries, send an email to kaluchinasaagu@gmail.com</p>
+        </div>
+        <div class="about">
+          <h5>ABOUT</h5>
+          <p>
+            Hotels directory in Nigeria was created to close the gap between
+            hotel owners and the their customers.
+          </p>
+        </div>
+      </div>
+      <div class="footer-icons">
+        <a href="#"
+          ><img
+            src="./Assets/images/facebook-f-brands.svg"
+            alt="facebook icon"
+            width="15"
+            height="15"
+        /></a>
+        <a href="#"
+          ><img
+            src="./Assets/images/twitter-brands.svg"
+            alt="Twitter icon"
+            width="15"
+            height="15"
+        /></a>
+        <a href="#"
+          ><img
+            src="./Assets/images/youtube-brands.svg"
+            alt="Youtube icon"
+            width="15"
+            height="15"
+        /></a>
+        <a href="#"
+          ><img
+            src="./Assets/images/instagram-brands.svg"
+            alt="instagram-brands"
+            width="15"
+            height="15"
+        /></a>
+        <a href="#"
+          ><img
+            src="./Assets/images/envelope-solid.svg"
+            alt="email"
+            width="15"
+            height="15"
+        /></a>
+        <p>&copy;2020 Microverse HTML & CSS Capstone project by Chinasa</p>
+      </div>
+    </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+      integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
