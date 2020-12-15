@@ -81,6 +81,23 @@ nav{
     color: white;
   }
 }
+
+.main-search {
+  background-image:
+    url(/Assets/images/real\ estate.jpeg);
+  left: 0;
+  top: 0;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+}
+
+.main-form {
+  padding-top:40px;
+}
 .form-row {
   display:flex;
   padding: 3px;
