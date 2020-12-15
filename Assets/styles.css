@@ -10,25 +10,60 @@ nav{
 
 .mobile-nav{
   background-color: rgb(211,86,73);
-  margin-bottom: 20px;
   padding: 20px;
 }
 
 .mobile-nav a{
   text-decoration: none;
-  padding: 10px;
+  padding: 15px;
   margin-bottom: 10px;
   color: white;
 }
 
-.fas {
-  color:white;
-}
 .icon ul, .list ul {
   display: flex;
   list-style: none;
   justify-content: center;
   align-items: center;
+}
+
+.hotel{
+  font-size: 20px;
+  font-weight: 900;
+}
+
+@media only screen and (min-width: 768px) {
+
+  .mobile-nav{
+    display: none;
+  }
+  nav{
+   display:flex;
+    background-color: rgb(211,86,73);
+  }
+
+  .main-nav {
+    display:flex;
+    list-style: none;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 15px;
+  }
+
+  .main-nav .links:nth-child(2){
+    flex: 1;
+    font-size: 20px;
+    font-weight:900;
+  }
+
+  .links-a {
+    padding-right: 20px;
+  }
+  nav a{
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: white;
+  }
 }
 .form-row {
   display:flex;
