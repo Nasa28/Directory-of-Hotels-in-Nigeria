@@ -21,3 +21,22 @@
   margin-bottom: 15px;
   margin-right: none;
 }
+
+.result-page {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-right: 50px;
+  margin-left: 50px;
+ 
+  
+}
+.result-detail {
+  font-size: 20px;
+  font-weight: 900;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  margin-right: 0;
+  border-radius: 3px;
+}
+
+.apply{
+margin-left:80%;
+}
