@@ -74,7 +74,9 @@ nav {
     padding: 5px;
     background-color: rgb(81, 155, 215);
     border: none;
+    color: white;
   }
+  
   .main-form label {
     display: block;
     color: rgba(0, 0, 0, 0.6);
@@ -169,6 +171,13 @@ nav {
     border-radius: 5px;
     border: none;
   }
+
+  .my-main-form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 20px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -237,7 +246,10 @@ nav {
   padding-top: 200px;
 }
 .main-search {
-  background-image: url(/Assets/images/real\ estate.jpeg);
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+   rgba(0, 0, 0, 0.5)),
+    url(/Assets/images/real\ estate.jpeg);
   left: 0;
   top: 0;
   height: 500px;
@@ -313,8 +325,10 @@ nav {
 
 .result-page {
   border: 1px solid rgba(0, 0, 0, 0.2);
-  margin-right: 50px;
-  margin-left: 50px;
+  width: 60%;
+  text-align: center;
+  padding: 50px;
+  margin: 50px auto;
 }
 .result-detail {
   font-size: 20px;
@@ -325,11 +339,28 @@ nav {
 }
 
 .apply {
-  margin-left: 80%;
+  padding: 15px 0;
+  text-align: center;
+  width: 60%;
 }
 
+.map-direction {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.map-direction h4 {
+  color: rgb(245, 77, 43);
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.more-d h4 {
+  color: rgb(245, 77, 43);
+  margin: 20px 0;
+}
 footer {
-  background-color: rgba(19, 19, 19, 0.8);
+  background-color: black;
 }
 
 .footer-links {
@@ -385,10 +416,9 @@ footer {
 }
 
 .footer-icons {
-  background-color: black;
+  background-color: rgba(19, 19, 19, 0.8);
   display: block;
   text-align: center;
-  
 }
 .small-icons a {
   color: white;
@@ -400,6 +430,28 @@ footer {
   color: white;
   font-weight: 600;
   opacity: 0.6;
+}
+
+.my-form {
+  background-color: rgb(238, 238, 238);
+  margin: 50px 0;
+}
+
+.my-form h5 {
+  padding-top: 50px;
+}
+
+label {
+  display: block;
+}
+.my-main-form input {
+  padding: 6px 12px;
+}
+.my-main-form button {
+  padding: 6px 12px;
+}
+.my-main-form select {
+  padding: 8px 16px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -429,7 +481,7 @@ footer {
   .footer-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin:10px;
+    margin: 10px;
   }
 
   .subscribe form {
@@ -450,5 +502,19 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 0 10px;
+  }
 }
+@media only screen and (max-width: 1024px) {
+  .my-main-form {
+    display: block;
+    text-align: center;
+  }
+  .my-main-form input, select{
+    width:50%;
+  }
+    
+  }
+  .my-main-form button {
+width: 50%;
+  }
 }
