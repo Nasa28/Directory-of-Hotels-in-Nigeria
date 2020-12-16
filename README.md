@@ -15,6 +15,9 @@ This project is my HTML & CSS Capstone Project in the Microverse program. It is 
 
 [Live Demo Link](https://nasa28.github.io/Directory-of-Hotels-in-Nigeria/index.html)
 
+## Demo Video
+
+[Application Demo Link](https://www.loom.com/share/fcfd69ad4a124227a4fad8423e0fb198)
 
 ## Getting Started
 
