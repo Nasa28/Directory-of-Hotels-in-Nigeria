@@ -176,7 +176,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 50px 20px;
+    padding: 50px 0;
   }
 }
 
@@ -444,6 +444,10 @@ footer {
 label {
   display: block;
 }
+.my-main-form  {
+  padding-bottom: 40px;
+    }
+
 .my-main-form input {
   padding: 6px 12px;
 }
@@ -512,9 +516,9 @@ label {
   .my-main-form input, select{
     width:50%;
   }
-    
-  }
   .my-main-form button {
-width: 50%;
+    width: 50%;
+      }
   }
-}
+ 
+
