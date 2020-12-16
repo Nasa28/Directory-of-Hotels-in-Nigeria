@@ -216,11 +216,9 @@ nav {
     background-color: rgb(211, 87, 73);
     border: none;
     width: 80%;
-    padding: 5px;
     margin-left: 20px;
     margin-top: 10px;
     border-radius: 5px;
-    border: none;
   }
 
   .main-form label {
@@ -247,6 +245,7 @@ nav {
     display: flex;
     flex-direction: column;
   }
+
   .find-img {
     order: 0;
   }
@@ -261,7 +260,8 @@ nav {
 }
 
 .main-search {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+   rgba(0, 0, 0, 0.5)),
     url(/Assets/images/real\ estate.jpeg);
   left: 0;
   top: 0;
@@ -337,7 +337,7 @@ nav {
 .form-group,
 .my-btn {
   margin-bottom: 15px;
-  margin-right: none;
+  margin-right: 0;
 }
 
 .result-page {
@@ -347,6 +347,7 @@ nav {
   padding: 50px;
   margin: 50px auto;
 }
+
 .result-detail {
   font-size: 20px;
   font-weight: 900;
@@ -440,6 +441,7 @@ footer {
   display: block;
   text-align: center;
 }
+
 .small-icons a {
   color: white;
   font-weight: 600;
@@ -518,6 +520,7 @@ label {
     align-items: center;
     justify-content: flex-start;
   }
+
   .footer-img {
     text-align: center;
     border-top: 1px solid white;
