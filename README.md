@@ -2,7 +2,7 @@
 
 This project is my HTML & CSS Capstone Project in the Microverse program. It is a sample website of Directory of Hotels in a Nigeria.
 
-![screenshot](./shot for readme.png)
+![screenshot](Assets/images/Readme.png)
 
 ## Built With
 
