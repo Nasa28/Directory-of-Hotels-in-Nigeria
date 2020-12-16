@@ -97,6 +97,7 @@ nav{
   align-items: center;
  }
 
+
 }
 @media only screen and (min-width: 1024px) {
 
@@ -340,4 +341,67 @@ nav{
 
 .apply{
 margin-left:80%;
+}
+
+footer{
+  background-color: rgb(19,19,19);
+}
+
+.footer-links {
+  display:block;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 2px solid rgb(152,164,165);
+  border-bottom: 2px solid rgb(152,164,165);
+}
+
+.footer-links a{
+  color: white;
+  text-decoration: none;
+}
+
+.footer-links-a, .footer-links-b {
+  display: flex;
+  justify-content: space-between;
+list-style-type: none;
+padding: 0 10px;
+}
+
+.footer-img{
+  text-align: center;
+}
+
+.footer-grid {
+  display: block;
+  text-align: center;
+  
+}
+
+.footer-grid h5{
+  color: white;
+}
+
+@media only screen and (min-width: 768px){
+
+  .footer-links {
+    display:flex;
+    justify-content: space-between;
+   margin:0 40px;
+    align-items: center;
+    border-top: 2px solid rgb(152,164,165);
+    border-bottom: 2px solid rgb(152,164,165);
+  }
+  
+  .footer-links-a, .footer-links-b {
+    flex:1;
+    margin:0 30px ;
+    display: flex;
+    justify-content: space-between;
+  list-style-type: none;
+  padding: 0 15px;
+  }
+  .footer-links a{
+    color: white;
+    text-decoration: none;
+  }
 }
