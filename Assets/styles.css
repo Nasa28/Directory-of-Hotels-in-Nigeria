@@ -32,6 +32,7 @@ nav {
   font-size: 20px;
   font-weight: 900;
 }
+
 @media only screen and (min-width: 768px) {
   .mobile-nav {
     display: flex;
@@ -43,6 +44,7 @@ nav {
   .icon {
     margin-top: 5px;
   }
+
   .mobile-nav .list ul li a {
     padding-right: 80px;
     margin-top: 10px;
@@ -64,6 +66,7 @@ nav {
   .main-btn button {
     border: none;
   }
+
   .main-src {
     background-color: rgb(190, 188, 187, 0.8);
     border-radius: 10px;
@@ -76,7 +79,7 @@ nav {
     border: none;
     color: white;
   }
-  
+
   .main-form label {
     display: block;
     color: rgba(0, 0, 0, 0.6);
@@ -84,6 +87,7 @@ nav {
     padding-top: 20px;
     font-weight: 600;
   }
+
   .main-form input {
     width: 80%;
     padding: 5px;
@@ -98,10 +102,12 @@ nav {
     align-items: center;
   }
 }
+
 @media only screen and (min-width: 1024px) {
   .mobile-nav {
     display: none;
   }
+
   nav {
     display: flex;
     background-color: rgb(211, 86, 73);
@@ -124,6 +130,7 @@ nav {
   .links-a {
     padding-right: 20px;
   }
+
   nav a {
     text-decoration: none;
     margin-bottom: 10px;
@@ -146,6 +153,7 @@ nav {
   .main-btn button {
     border: none;
   }
+
   .main-src {
     background-color: rgb(190, 188, 187, 0.8);
     border-radius: 10px;
@@ -157,6 +165,7 @@ nav {
     background-color: rgb(211, 87, 73);
     border: none;
   }
+
   .main-form label {
     display: block;
     color: rgba(0, 0, 0, 0.6);
@@ -164,6 +173,7 @@ nav {
     padding-top: 20px;
     font-weight: 600;
   }
+
   .main-form input {
     width: 80%;
     padding: 5px;
@@ -212,6 +222,7 @@ nav {
     border-radius: 5px;
     border: none;
   }
+
   .main-form label {
     display: block;
     color: rgba(0, 0, 0, 0.6);
@@ -219,6 +230,7 @@ nav {
     padding-top: 20px;
     font-weight: 600;
   }
+
   .main-form input {
     width: 80%;
     padding: 5px;
@@ -230,6 +242,7 @@ nav {
   .easy-find {
     text-align: center;
   }
+
   .find-hotel {
     display: flex;
     flex-direction: column;
@@ -237,6 +250,7 @@ nav {
   .find-img {
     order: 0;
   }
+
   .find-details {
     order: 9;
   }
@@ -245,10 +259,9 @@ nav {
 .main-form {
   padding-top: 200px;
 }
+
 .main-search {
-  background-image: linear-gradient(
-    rgba(0, 0, 0, 0.5),
-   rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(/Assets/images/real\ estate.jpeg);
   left: 0;
   top: 0;
@@ -275,12 +288,15 @@ nav {
   color: white;
   font-size: 18px;
 }
+
 .find-a {
   background-color: rgb(225, 126, 101);
 }
+
 .find-b {
   background-color: rgb(152, 164, 165);
 }
+
 .find-c {
   background-color: rgb(80, 155, 215);
 }
@@ -305,6 +321,7 @@ nav {
 .find-c a {
   color: rgb(80, 155, 215);
 }
+
 .form-row {
   display: flex;
   padding: 3px;
@@ -359,6 +376,7 @@ nav {
   color: rgb(245, 77, 43);
   margin: 20px 0;
 }
+
 footer {
   background-color: black;
 }
@@ -376,6 +394,7 @@ footer {
   font-weight: 600;
   opacity: 0.6;
 }
+
 .footer-links a {
   color: white;
   text-decoration: none;
@@ -404,6 +423,7 @@ footer {
   border: none;
   background-color: rgb(52, 58, 64);
 }
+
 .btn-footer {
   padding: 5px;
   background-color: rgb(108, 117, 125);
@@ -426,6 +446,7 @@ footer {
   opacity: 0.6;
   padding-right: 10px;
 }
+
 .copyright {
   color: white;
   font-weight: 600;
@@ -444,16 +465,19 @@ footer {
 label {
   display: block;
 }
-.my-main-form  {
+
+.my-main-form {
   padding-bottom: 40px;
-    }
+}
 
 .my-main-form input {
   padding: 6px 12px;
 }
+
 .my-main-form button {
   padding: 6px 12px;
 }
+
 .my-main-form select {
   padding: 8px 16px;
 }
@@ -477,6 +501,7 @@ label {
     list-style-type: none;
     padding: 0 15px;
   }
+
   .footer-links a {
     color: white;
     text-decoration: none;
@@ -501,6 +526,7 @@ label {
     padding: 20px;
     border-right: 1px solid white;
   }
+
   .footer-icons {
     display: flex;
     justify-content: space-between;
@@ -508,17 +534,19 @@ label {
     padding: 0 10px;
   }
 }
+
 @media only screen and (max-width: 1024px) {
   .my-main-form {
     display: block;
     text-align: center;
   }
-  .my-main-form input, select{
-    width:50%;
+
+  .my-main-form input,
+  select {
+    width: 50%;
   }
+
   .my-main-form button {
     width: 50%;
-      }
   }
- 
-
+}
