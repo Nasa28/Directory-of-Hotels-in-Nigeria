@@ -260,10 +260,10 @@ nav {
 }
 
 .main-search {
-  background-image:
+  background-image: 
   linear-gradient(rgba(0, 0, 0, 0.5),
-   rgba(0, 0, 0, 0.5)),
-    url(/Assets/images/real\ estate.jpeg);
+  rgba(0, 0, 0, 0.5)),
+  url(../Assets/images/estate.jpeg);
   left: 0;
   top: 0;
   height: 500px;
