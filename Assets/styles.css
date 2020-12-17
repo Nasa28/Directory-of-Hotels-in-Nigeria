@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body{
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+}
 nav {
   display: none;
 }
@@ -388,6 +393,7 @@ nav {
 
 footer {
   background-color: black;
+  padding-top: 15px;
 }
 
 .footer-links {
