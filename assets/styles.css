@@ -10,9 +10,19 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
 }
 
-footer a:hover {
-  color:red;
-  text-decoration: underline;
+.main-btn a {
+  text-decoration: none;
+  padding:5px;
+  background-color: rgb(165, 168, 170);
+  color: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+}
+
+.mobile-nav a {
+  text-decoration: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: white;
 }
 
 nav {
@@ -22,13 +32,6 @@ nav {
 .mobile-nav {
   background-color: rgb(211, 86, 73);
   padding: 20px;
-}
-
-.mobile-nav a {
-  text-decoration: none;
-  padding: 10px;
-  margin-bottom: 10px;
-  color: white;
 }
 
 .icon ul,
@@ -49,14 +52,6 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.main-btn a {
-  text-decoration: none;
-  padding:5px;
-  background-color: rgb(165, 168, 170);
-  color: rgba(0, 0, 0, 0.8);
-  border-radius: 5px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -493,6 +488,11 @@ footer {
   padding-right: 10px;
 }
 
+footer a:hover {
+  color:red;
+  text-decoration: underline;
+}
+
 .copyright {
   color: white;
   font-weight: 600;
@@ -568,7 +568,7 @@ label {
   .footer-links {
     display: none;
   }
-  
+
   .footer-links-desktop {
     display: flex;
     justify-content: space-around;
