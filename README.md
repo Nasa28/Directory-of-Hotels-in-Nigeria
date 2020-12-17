@@ -20,7 +20,7 @@ This project is my HTML & CSS Capstone Project in the Microverse program. It is 
 
 ## Demo Video
 
-[Application Demo Link](https://www.loom.com/share/fcfd69ad4a124227a4fad8423e0fb198)
+[Application Demo Link](https://www.loom.com/share/57ab98e76388474a847bae130ab365ae)
 
 ## Getting Started
 
