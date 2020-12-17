@@ -1,6 +1,6 @@
 # Directory of Hotels in nigeria
 
-This project is my HTML & CSS Capstone Project in the Microverse program. It is a sample website of Directory of Hotels in a Nigeria.
+This project is my HTML & CSS Capstone Project in the Microverse program. It is a sample website of Directory of Hotels in  Nigeria.
 
 ![screenshot](assets/images/readme-a.png)
 ![screenshot](assets/images/readme-b.png)
