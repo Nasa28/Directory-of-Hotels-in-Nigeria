@@ -12,7 +12,7 @@ body {
 
 .main-btn a {
   text-decoration: none;
-  padding:5px;
+  padding: 5px;
   background-color: rgb(165, 168, 170);
   color: rgba(0, 0, 0, 0.8);
   border-radius: 5px;
@@ -52,6 +52,21 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image:
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+  url(../assets/images/estate.jpeg);
+  left: 0;
+  top: 0;
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  z-index: -1;
 }
 
 @media only screen and (min-width: 768px) {
@@ -214,7 +229,7 @@ nav {
 
 @media only screen and (max-width: 768px) {
   .main-form {
-    margin:0 auto;
+    margin: 0 auto;
     width: 80%;
     padding-top: 100px;
     color: white;
@@ -302,24 +317,6 @@ nav {
   .footer-links-desktop {
     display: none;
   }
-}
-
-.main-search {
-  background-image:
-    linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url(../assets/images/estate.jpeg);
-  left: 0;
-  top: 0;
-  height: 600px;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-bottom: 10px;
-  padding-bottom: 20px;
-  z-index: -1;
 }
 
 .steps h4 {
@@ -450,7 +447,7 @@ footer {
 }
 
 .contact,
-.about{
+.about {
   padding-top: 20px;
 }
 
@@ -489,7 +486,7 @@ footer {
 }
 
 footer a:hover {
-  color:red;
+  color: red;
   text-decoration: underline;
 }
 
