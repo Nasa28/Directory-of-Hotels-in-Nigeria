@@ -21,8 +21,16 @@ This project is my HTML & CSS Capstone Project in the Microverse program. It is 
 
 ## Getting Started
 
-Download the code and open it on your text editor to edit it. And for see it, open the html file on the browser.
+To get a local copy of the repository, please run the following commands on your terminal:
 
+```
+$ cd <folder>
+```
+
+```
+$ git clone https://github.com/Nasa28/Directory-of-Hotels-in-Nigeria.git
+
+```
 ### Prerequisites
 
 Text Editor
@@ -32,9 +40,6 @@ Browser
 
 - If you want to run the linters... run 'npm install'
 
-### Usage
-
-Open in the browser
 
 ### Run tests
 
