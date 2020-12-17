@@ -9,6 +9,7 @@ body{
   font-weight: 600;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
 }
+
 nav {
   display: none;
 }
@@ -44,6 +45,7 @@ nav {
   justify-content: center;
   align-items: center;
 }
+
 .main-btn a{
   text-decoration: none;
   padding:5px;
@@ -72,6 +74,7 @@ nav {
   .main-search{
     display: block;
   }
+
   .main-form {
     margin: auto;
     width: 80%;
@@ -278,6 +281,7 @@ nav {
     display: block;
     padding: 10px 0;
   }
+
   .footer-links-a ul{
     display: flex;
     justify-content: space-around;
@@ -285,6 +289,7 @@ nav {
     border-top: 1px solid rgba(255, 255, 255, 0.3);
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
+
   .footer-links-b ul{
     display: flex;
     justify-content: space-around;
@@ -446,6 +451,7 @@ footer {
 .contact, .about{
   padding-top: 20px;
 }
+
 .footer-grid h5 {
   color: white;
 }
@@ -523,6 +529,7 @@ label {
     align-items: center;
     margin: 0 30px;
   }
+
   .contact, .about {
     padding-left: 40px;
     padding-right: 40px;
@@ -558,7 +565,8 @@ label {
   justify-content: space-around;
   align-items: center;
   margin: 0 30px;
-}
+  }
+
   .footer-links-desktop a{
     text-decoration: none;
     color: white;
