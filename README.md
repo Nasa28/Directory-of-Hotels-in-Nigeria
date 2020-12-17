@@ -2,7 +2,9 @@
 
 This project is my HTML & CSS Capstone Project in the Microverse program. It is a sample website of Directory of Hotels in a Nigeria.
 
-![screenshot](Assets/images/Readme.png)
+![screenshot](assets/images/readme-a.png)
+![screenshot](assets/images/readme-b.png)
+
 
 ## Built With
 
@@ -33,8 +35,8 @@ $ git clone https://github.com/Nasa28/Directory-of-Hotels-in-Nigeria.git
 ```
 ### Prerequisites
 
-Text Editor
-Browser
+- Text Editor
+- Browser
 
 ### Install
 
