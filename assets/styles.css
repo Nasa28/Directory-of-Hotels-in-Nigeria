@@ -437,11 +437,15 @@ footer {
 }
 
 .footer-grid {
-  display: block;
+  display:flex;
+  flex-direction: column;
   text-align: center;
   margin: 30px auto;
 }
 
+.contact, .about{
+  padding-top: 20px;
+}
 .footer-grid h5 {
   color: white;
 }
@@ -513,11 +517,16 @@ label {
 
 @media only screen and (min-width: 768px) {
   .footer-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 30px;
   }
-
+  .contact, .about {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
   .subscribe form {
     display: flex;
     align-items: center;
