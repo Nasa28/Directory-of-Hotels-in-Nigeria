@@ -10,6 +10,11 @@ body{
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
 }
 
+footer a:hover{
+  color:red;
+  text-decoration: underline;
+
+}
 nav {
   display: none;
 }
