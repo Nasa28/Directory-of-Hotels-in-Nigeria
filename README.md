@@ -34,6 +34,8 @@ $ cd <folder>
 $ git clone https://github.com/Nasa28/Directory-of-Hotels-in-Nigeria.git
 
 ```
+To create a branch , run $git checkout -b <New_branch>
+To change branch, run $git checkout <Branch_name>
 ### Prerequisites
 
 - Text Editor
@@ -54,7 +56,7 @@ $ git clone https://github.com/Nasa28/Directory-of-Hotels-in-Nigeria.git
 
 👤 **Kalu Chinasa Agu**
 
-- GitHub: [@Nasa](https://github.com/Nasa28)
+- GitHub: [@Nasa28](https://github.com/Nasa28)
 - Twitter: [@Ultimate_Nasa](https://twitter.com/Ultimate_Nasa)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/kalu-chinasa-agu-a15080103/)
 
