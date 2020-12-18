@@ -34,6 +34,7 @@ $ cd <folder>
 $ git clone https://github.com/Nasa28/Directory-of-Hotels-in-Nigeria.git
 
 ```
+- Open the folder using a code editor. 
 - To create a branch , run $git checkout -b <New_branch>
 - To change branch, run $git checkout <Branch_name>
 ### Prerequisites
